@@ -1,0 +1,493 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  09/Dec/2022  09:45:29
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out
+#    Map file     =
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\List\STM32H745I_DISCO_CM7.map
+#    Command line =
+#        -f C:\Users\JREINH~1\AppData\Local\Temp\EW748.tmp
+#        (C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\main.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\startup_stm32h745xx.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h745i_discovery.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_adc.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_adc_ex.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_cortex.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_dma.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_dma_ex.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_gpio.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_hsem.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_i2c.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_i2c_ex.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_mdma.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_msp.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_pwr.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_pwr_ex.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_qspi.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_rcc.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_rcc_ex.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_it.o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\system_stm32h7xx.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out
+#        --map
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\List\STM32H745I_DISCO_CM7.map
+#        --config
+#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\stm32h7xx_CM7_FLASH.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x298
+  .intvec            ro code   0x800'0000   0x298  startup_stm32h745xx.o [1]
+                             - 0x800'0298   0x298
+
+"P1":                                      0x2477
+  .text              ro code   0x800'0298   0x900  stm32h7xx_hal_qspi.o [1]
+  .text              ro code   0x800'0b98     0xc  stm32h7xx_hal.o [1]
+  .text              ro code   0x800'0ba4   0x216  stm32h7xx_hal_msp.o [1]
+  .text              ro code   0x800'0dba     0x2  stm32h7xx_hal_qspi.o [1]
+  .text              ro code   0x800'0dbc   0x506  main.o [1]
+  .text              ro code   0x800'12c2     0x2  stm32h7xx_hal_qspi.o [1]
+  .text              ro code   0x800'12c4    0x26  stm32h7xx_hal_mdma.o [1]
+  .text              ro code   0x800'12ea     0x2  stm32h7xx_hal_qspi.o [1]
+  .text              ro code   0x800'12ec     0x2  stm32h7xx_hal_qspi.o [1]
+  .text              ro code   0x800'12ee    0x3a  zero_init3.o [4]
+  .text              ro code   0x800'1328   0x35c  stm32h7xx_hal_gpio.o [1]
+  .text              ro code   0x800'1684   0x16c  stm32h7xx_hal_cortex.o [1]
+  .text              ro code   0x800'17f0    0x7e  stm32h7xx_hal.o [1]
+  .text              ro code   0x800'1870    0x78  stm32h7xx_hal_pwr_ex.o [1]
+  .text              ro code   0x800'18e8   0x848  stm32h7xx_hal_rcc.o [1]
+  .text              ro code   0x800'2130    0xc0  stm32h745i_discovery.o [1]
+  .text              ro code   0x800'21f0    0x28  stm32h7xx_hal.o [1]
+  .text              ro code   0x800'2218    0x44  stm32h7xx_hal.o [1]
+  .text              ro code   0x800'225c    0xac  system_stm32h7xx.o [1]
+  .text              ro code   0x800'2308    0x78  lz77_init_single.o [4]
+  .text              ro code   0x800'2380    0x28  data_init.o [4]
+  .text              ro code   0x800'23a8    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'23cc    0x20  - Linker created -
+  .text              ro code   0x800'23ec    0x20  stm32h7xx_it.o [1]
+  .text              ro code   0x800'240c    0x10  stm32h7xx_hal.o [1]
+  .text              ro code   0x800'241c    0x1e  cmain.o [4]
+  .text              ro code   0x800'243a     0x4  low_level_init.o [2]
+  .text              ro code   0x800'243e     0x4  exit.o [2]
+  .text              ro code   0x800'2444     0xa  cexit.o [4]
+  .text              ro code   0x800'2450    0x14  exit.o [5]
+  .text              ro code   0x800'2464    0x1c  cstartup_M.o [4]
+  .text              ro code   0x800'2480    0x10  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2490     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2494     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2498     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'249c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24a0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24a4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24a8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24ac     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24b0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24b4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24b8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24bc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24c0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24c4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24c8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24cc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24d0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24d4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24d8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24dc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24e0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24e4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24e8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24ec     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24f0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24f4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24f8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'24fc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2500     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2504     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2508     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'250c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2510     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2514     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2518     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'251c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2520     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2524     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2528     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'252c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2530     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2534     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2538     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'253c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2540     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2544     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2548     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'254c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2550     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2554     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2558     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'255c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2560     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2564     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2568     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'256c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2570     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2574     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2578     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'257c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2580     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2584     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2588     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'258c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2590     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2594     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2598     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'259c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25a0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25a4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25a8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25ac     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25b0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25b4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25b8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25bc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25c0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25c4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25c8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25cc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25d0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25d4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25d8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25dc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25e0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25e4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25e8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25ec     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25f0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25f4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25f8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'25fc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2600     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2604     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2608     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'260c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2610     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2614     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2618     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'261c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2620     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2624     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2628     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'262c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2630     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2634     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2638     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'263c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2640     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2644     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2648     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'264c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2650     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2654     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2658     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'265c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2660     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2664     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2668     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'266c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2670     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2674     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2678     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'267c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2680     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2684     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2688     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'268c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2690     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2694     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'2698     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'269c     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26a0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26a4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26a8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26ac     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26b0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26b4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26b8     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26bc     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26c0     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26c4     0x4  startup_stm32h745xx.o [1]
+  .text              ro code   0x800'26c8     0x4  startup_stm32h745xx.o [1]
+  .rodata            const     0x800'26cc     0x0  zero_init3.o [4]
+  .rodata            const     0x800'26cc     0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x800'26cc    0x43  <for P2-1>
+                             - 0x800'270f  0x2477
+
+"P2", part 1 of 3:                          0x11c
+  P2-1                        0x2000'0000   0x11c  <Init block>
+    .data            inited   0x2000'0000   0x100  main.o [1]
+    .data            inited   0x2000'0100     0x8  stm32h745i_discovery.o [1]
+    .data            inited   0x2000'0108     0xc  stm32h7xx_hal.o [1]
+    .data            inited   0x2000'0114     0x8  system_stm32h7xx.o [1]
+                            - 0x2000'011c   0x11c
+
+"P2", part 2 of 3:                           0x50
+  .bss               zero     0x2000'011c    0x50  main.o [1]
+                            - 0x2000'016c    0x50
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0170   0x400  <Block>
+    CSTACK           uninit   0x2000'0170   0x400  <Block tail>
+                            - 0x2000'0570   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'270f   0x80f'ffff  0xf'd8f1
+  0x2000'016c  0x2000'016f       0x4
+  0x2000'0570  0x2001'ffff  0x1'fa90
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x50:
+          0x2000'011c   0x50
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x43 (23% of destination):
+           0x800'26cc   0x43
+    1 destination range, total size 0x11c:
+          0x2000'0000  0x11c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj: [1]
+    main.o                    1'286       60      336
+    startup_stm32h745xx.o     1'252
+    stm32h745i_discovery.o      192        2        8
+    stm32h7xx_hal.o             262        3       12
+    stm32h7xx_hal_cortex.o      364
+    stm32h7xx_hal_gpio.o        860
+    stm32h7xx_hal_mdma.o         38
+    stm32h7xx_hal_msp.o         534
+    stm32h7xx_hal_pwr_ex.o      120
+    stm32h7xx_hal_qspi.o      2'312
+    stm32h7xx_hal_rcc.o       2'120
+    stm32h7xx_it.o               32
+    system_stm32h7xx.o          172        2        8
+    -------------------------------------------------
+    Total:                    9'544       67      364
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tlv.a: [3]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [4]
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    lz77_init_single.o          120
+    zero_init3.o                 58
+    -------------------------------------------------
+    Total:                      286
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          6        2
+    Linker created                        32    1'024
+-----------------------------------------------------
+    Grand Total:              9'898      101    1'388
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'23cc          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'23ec          --   Gb  - Linker created -
+?main                    0x800'241d         Code  Gb  cmain.o [4]
+BSP_LED_Init             0x800'2131   0x6c  Code  Gb  stm32h745i_discovery.o [1]
+BSP_LED_On               0x800'219d    0xa  Code  Gb  stm32h745i_discovery.o [1]
+BSP_LED_Toggle           0x800'21c5   0x1a  Code  Gb  stm32h745i_discovery.o [1]
+BusFault_Handler         0x800'23f3    0x2  Code  Gb  stm32h7xx_it.o [1]
+CSTACK$$Base            0x2000'0170          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0570          --   Gb  - Linker created -
+CmdCplt                 0x2000'011c    0x1  Data  Gb  main.o [1]
+D1CorePrescTable         0x800'22f8   0x10  Data  Gb  system_stm32h7xx.o [1]
+DebugMon_Handler         0x800'23f9    0x2  Code  Gb  stm32h7xx_it.o [1]
+Error_Handler            0x800'12b9    0xa  Code  Lc  main.o [1]
+HAL_Delay                0x800'21f1   0x28  Code  Wk  stm32h7xx_hal.o [1]
+HAL_EnableCompensationCell
+                         0x800'1849    0x2  Code  Gb  stm32h7xx_hal.o [1]
+HAL_GPIO_DeInit          0x800'1509  0x130  Code  Gb  stm32h7xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'1329  0x1e0  Code  Gb  stm32h7xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin       0x800'1641   0x10  Code  Gb  stm32h7xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'1639    0x8  Code  Gb  stm32h7xx_hal_gpio.o [1]
+HAL_GetREVID             0x800'1841    0x8  Code  Gb  stm32h7xx_hal.o [1]
+HAL_GetTick              0x800'0b99    0xc  Code  Wk  stm32h7xx_hal.o [1]
+HAL_IncTick              0x800'240d   0x10  Code  Wk  stm32h7xx_hal.o [1]
+HAL_Init                 0x800'17f1   0x50  Code  Gb  stm32h7xx_hal.o [1]
+HAL_InitTick             0x800'2219   0x44  Code  Wk  stm32h7xx_hal.o [1]
+HAL_MDMA_Abort_IT        0x800'12c5   0x26  Code  Gb  stm32h7xx_hal_mdma.o [1]
+HAL_MPU_ConfigRegion     0x800'177f   0x4c  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_MPU_Disable          0x800'1751   0x14  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_MPU_Enable           0x800'1765   0x1a  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_NVIC_DisableIRQ      0x800'170b   0x1e  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ       0x800'16f5   0x16  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'16b9   0x3a  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'169f   0x1a  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HAL_PWREx_ConfigSupply   0x800'1871   0x72  Code  Gb  stm32h7xx_hal_pwr_ex.o [1]
+HAL_QSPI_AutoPolling     0x800'081b   0x96  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_AutoPolling_IT
+                         0x800'08b9   0x9a  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_CmdCpltCallback
+                         0x800'11af    0xa  Code  Gb  main.o [1]
+HAL_QSPI_Command         0x800'0553   0x76  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_Command_IT      0x800'05d3   0x72  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_DeInit          0x800'0331   0x24  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_IRQHandler      0x800'0355  0x1da  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_Init            0x800'0299   0x98  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_MemoryMapped    0x800'095d   0x78  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_MspDeInit       0x800'0d23   0x74  Code  Gb  stm32h7xx_hal_msp.o [1]
+HAL_QSPI_MspInit         0x800'0ba5  0x14e  Code  Gb  stm32h7xx_hal_msp.o [1]
+HAL_QSPI_Receive         0x800'06f1   0xae  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_RxCpltCallback
+                         0x800'11b9    0xa  Code  Gb  main.o [1]
+HAL_QSPI_StatusMatchCallback
+                         0x800'11cd    0xa  Code  Gb  main.o [1]
+HAL_QSPI_Transmit        0x800'0645   0xac  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_Transmit_IT     0x800'079f   0x64  Code  Gb  stm32h7xx_hal_qspi.o [1]
+HAL_QSPI_TxCpltCallback
+                         0x800'11c3    0xa  Code  Gb  main.o [1]
+HAL_RCC_ClockConfig      0x800'18e9  0x1ac  Code  Gb  stm32h7xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'1af1   0xf0  Code  Gb  stm32h7xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'1c25  0x50c  Code  Wk  stm32h7xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'1729   0x28  Code  Gb  stm32h7xx_hal_cortex.o [1]
+HardFault_Handler        0x800'23ef    0x2  Code  Gb  stm32h7xx_it.o [1]
+LED_PIN                  0x800'21e8    0x8  Data  Lc  stm32h745i_discovery.o [1]
+LED_PORT                0x2000'0100    0x8  Data  Lc  stm32h745i_discovery.o [1]
+MemManage_Handler        0x800'23f1    0x2  Code  Gb  stm32h7xx_it.o [1]
+NMI_Handler              0x800'23ed    0x2  Code  Gb  stm32h7xx_it.o [1]
+PendSV_Handler           0x800'23fb    0x2  Code  Gb  stm32h7xx_it.o [1]
+QSPIHandle              0x2000'0120   0x4c  Data  Gb  main.o [1]
+QSPI_AutoPollingMemReady
+                         0x800'1243   0x4e  Code  Lc  main.o [1]
+QSPI_Config              0x800'0a61  0x138  Code  Lc  stm32h7xx_hal_qspi.o [1]
+QSPI_DMAAbortCplt        0x800'09e1   0x36  Code  Lc  stm32h7xx_hal_qspi.o [1]
+QSPI_WaitFlagStateUntilTimeout
+                         0x800'0a17   0x4a  Code  Lc  stm32h7xx_hal_qspi.o [1]
+QSPI_WriteEnable         0x800'11d7   0x6c  Code  Lc  main.o [1]
+QUADSPI_IRQHandler       0x800'2401    0x6  Code  Gb  stm32h7xx_it.o [1]
+Region$$Table$$Base      0x800'23cc          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'23ec          --   Gb  - Linker created -
+RxCplt                  0x2000'011d    0x1  Data  Gb  main.o [1]
+SVC_Handler              0x800'23f7    0x2  Code  Gb  stm32h7xx_it.o [1]
+StatusMatch             0x2000'011f    0x1  Data  Gb  main.o [1]
+SysTick_Handler          0x800'23fd    0x4  Code  Gb  stm32h7xx_it.o [1]
+SystemCoreClock         0x2000'0114    0x4  Data  Gb  system_stm32h7xx.o [1]
+SystemD2Clock           0x2000'0118    0x4  Data  Gb  system_stm32h7xx.o [1]
+SystemInit               0x800'225d   0x7c  Code  Gb  system_stm32h7xx.o [1]
+TxCplt                  0x2000'011e    0x1  Data  Gb  main.o [1]
+UsageFault_Handler       0x800'23f5    0x2  Code  Gb  stm32h7xx_it.o [1]
+__NVIC_SetPriority       0x800'1685   0x1a  Code  Lc  stm32h7xx_hal_cortex.o [1]
+__cmain                  0x800'241d         Code  Gb  cmain.o [4]
+__exit                   0x800'2451   0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'2381   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'23a9         Code  Gb  fpinit_M.o [3]
+__iar_lz77_init_single3
+                         0x800'2309   0x78  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x800'2465         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'12ef   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'243b    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32h745xx.o [1]
+_call_main               0x800'2429         Code  Gb  cmain.o [4]
+_exit                    0x800'2445         Code  Gb  cexit.o [4]
+_main                    0x800'2433         Code  Gb  cmain.o [4]
+aTxBuffer               0x2000'0000  0x100  Data  Gb  main.o [1]
+exit                     0x800'243f    0x4  Code  Gb  exit.o [2]
+main                     0x800'0dbd  0x3e6  Code  Gb  main.o [1]
+uwTick                  0x2000'010c    0x4  Data  Gb  stm32h7xx_hal.o [1]
+uwTickFreq              0x2000'0108    0x1  Data  Gb  stm32h7xx_hal.o [1]
+uwTickPrio              0x2000'0110    0x4  Data  Gb  stm32h7xx_hal.o [1]
+
+
+[1] = C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tlv.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  9'898 bytes of readonly  code memory
+    101 bytes of readonly  data memory
+  1'388 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
