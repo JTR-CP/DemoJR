@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\bin\armstlink2.dll" 
 
-"C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out" 
+"C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\arm\bin\armbat.dll" 
 

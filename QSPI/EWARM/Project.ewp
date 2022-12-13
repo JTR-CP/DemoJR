@@ -11,7 +11,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>29</version>
+                <version>31</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -66,7 +66,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>8.20.1.14181</state>
+                    <state>8.50.9.33458</state>
                 </option>
                 <option>
                     <name>GeneralEnableMisra</name>
@@ -78,7 +78,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>STM32H745XI_CM7	ST STM32H745XI_CM7</state>
+                    <state>STM32H745XI_M7	ST STM32H745XI_M7</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -112,11 +112,11 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\INC\c\DLib_Config_Full.h</state>
+                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>26</version>
+                    <version>28</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -133,12 +133,12 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>26</version>
+                    <version>28</version>
                     <state>41</state>
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>STM32H745XI_CM7	ST STM32H745XI_CM7</state>
+                    <state>STM32H745XI_M7	ST STM32H745XI_M7</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -156,7 +156,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>26</version>
+                    <version>28</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -200,13 +200,22 @@
                     <name>DSPExtension</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>TrustZone</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>TrustZoneModes</name>
+                    <version>0</version>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>34</version>
+                <version>36</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -346,13 +355,14 @@
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..\Common\Inc</state>
                     <state>$PROJ_DIR$\..\CM7\Inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32H745I-DISCO</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\Common</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Fonts</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\CPU</state>
+                    <state>$PROJ_DIR$\..\Drivers\CMSIS\Include</state>
+                    <state>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
+                    <state>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Inc</state>
+                    <state>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src</state>
+                    <state>$PROJ_DIR$\..\Drivers\BSP\STM32H745I-DISCO</state>
+                    <state>$PROJ_DIR$\..\Drivers\BSP\Components\Common</state>
+                    <state>$PROJ_DIR$\..\Utilities\Fonts</state>
+                    <state>$PROJ_DIR$\..\Utilities\CPU</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -466,13 +476,21 @@
                     <name>IccRTTI2</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>OICompilerExtraOption</name>
+                    <state>1</state>
+                </option>
+                <option>
+                    <name>CCStackProtection</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
             <name>AARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>10</version>
+                <version>11</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -628,6 +646,10 @@
                     <name>AsmNoLiteralPool</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>PreInclude</name>
+                    <state></state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -686,7 +708,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>20</version>
+                <version>23</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -998,6 +1020,30 @@
                     <name>IlinkLocaleSelect</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkTrustzoneImportLibraryOut</name>
+                    <state>Project_import_lib.o</state>
+                </option>
+                <option>
+                    <name>OILinkExtraOption</name>
+                    <state>1</state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryFile2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySymbol2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySegment2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryAlign2</name>
+                    <state></state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -1037,7 +1083,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>29</version>
+                <version>31</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1092,7 +1138,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>8.20.1.14181</state>
+                    <state>8.50.9.33458</state>
                 </option>
                 <option>
                     <name>GeneralEnableMisra</name>
@@ -1104,7 +1150,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>STM32H745XI_CM4	ST STM32H745XI_CM4</state>
+                    <state>STM32H745XI_M4	ST STM32H745XI_M4</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -1138,11 +1184,11 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\INC\c\DLib_Config_Full.h</state>
+                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>26</version>
+                    <version>28</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -1159,12 +1205,12 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>26</version>
+                    <version>28</version>
                     <state>39</state>
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>STM32H745XI_CM4	ST STM32H745XI_CM4</state>
+                    <state>STM32H745XI_M4	ST STM32H745XI_M4</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -1182,7 +1228,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>26</version>
+                    <version>28</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -1226,13 +1272,22 @@
                     <name>DSPExtension</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>TrustZone</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>TrustZoneModes</name>
+                    <version>0</version>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>34</version>
+                <version>36</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1372,13 +1427,14 @@
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..\Common\Inc</state>
                     <state>$PROJ_DIR$\..\CM4\Inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Include</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32H745I-DISCO</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\Common</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Fonts</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\Utilities\CPU</state>
+                    <state>$PROJ_DIR$\..\Drivers\CMSIS\Include</state>
+                    <state>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include</state>
+                    <state>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Inc</state>
+                    <state>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src</state>
+                    <state>$PROJ_DIR$\..\Drivers\BSP\STM32H745I-DISCO</state>
+                    <state>$PROJ_DIR$\..\Drivers\BSP\Components\Common</state>
+                    <state>$PROJ_DIR$\..\Utilities\Fonts</state>
+                    <state>$PROJ_DIR$\..\Utilities\CPU</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1492,13 +1548,21 @@
                     <name>IccRTTI2</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>OICompilerExtraOption</name>
+                    <state>1</state>
+                </option>
+                <option>
+                    <name>CCStackProtection</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
             <name>AARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>10</version>
+                <version>11</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1654,6 +1718,10 @@
                     <name>AsmNoLiteralPool</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>PreInclude</name>
+                    <state></state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -1712,7 +1780,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>20</version>
+                <version>23</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -2024,6 +2092,30 @@
                     <name>IlinkLocaleSelect</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkTrustzoneImportLibraryOut</name>
+                    <state>###Unitialized###</state>
+                </option>
+                <option>
+                    <name>OILinkExtraOption</name>
+                    <state>1</state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryFile2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySymbol2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySegment2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryAlign2</name>
+                    <state></state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -2066,7 +2158,7 @@
             <group>
                 <name>STM32H745I_DISCOVERY</name>
                 <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32H745I-DISCO\stm32h745i_discovery.c</name>
+                    <name>$PROJ_DIR$\..\Drivers\BSP\STM32H745I-DISCO\stm32h745i_discovery.c</name>
                 </file>
             </group>
         </group>
@@ -2079,55 +2171,52 @@
         <group>
             <name>STM32H7xx_HAL_Driver</name>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_adc_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_cortex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_dma_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_gpio.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_hsem.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_i2c_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c</name>
-                <excluded>
-                    <configuration>STM32H745I_DISCO_CM4</configuration>
-                </excluded>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mdma.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_pwr_ex.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c</name>
+                <name>$PROJ_DIR$\..\Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_rcc_ex.c</name>
             </file>
         </group>
     </group>

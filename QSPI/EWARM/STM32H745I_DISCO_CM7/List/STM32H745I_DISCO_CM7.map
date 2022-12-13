@@ -1,43 +1,42 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.9.278/W32 for ARM                  09/Dec/2022  09:45:29
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  13/Dec/2022  12:13:45
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out
 #    Map file     =
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\List\STM32H745I_DISCO_CM7.map
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\List\STM32H745I_DISCO_CM7.map
 #    Command line =
-#        -f C:\Users\JREINH~1\AppData\Local\Temp\EW748.tmp
-#        (C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\main.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\startup_stm32h745xx.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h745i_discovery.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_adc.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_adc_ex.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_cortex.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_dma.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_dma_ex.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_gpio.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_hsem.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_i2c.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_i2c_ex.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_mdma.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_msp.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_pwr.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_pwr_ex.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_qspi.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_rcc.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_rcc_ex.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_it.o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj\system_stm32h7xx.o
+#        -f C:\Users\JREINH~1\AppData\Local\Temp\EWA3FA.tmp
+#        (C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\main.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\startup_stm32h745xx.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h745i_discovery.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_adc.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_adc_ex.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_cortex.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_dma.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_dma_ex.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_gpio.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_hsem.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_i2c.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_i2c_ex.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_mdma.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_msp.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_pwr.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_pwr_ex.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_qspi.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_rcc.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_hal_rcc_ex.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\stm32h7xx_it.o
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj\system_stm32h7xx.o
 #        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
 #        --no_out_extension -o
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Exe\STM32H745I_DISCO_CM7.out
 #        --map
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\List\STM32H745I_DISCO_CM7.map
-#        --config
-#        C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\stm32h7xx_CM7_FLASH.icf
+#        C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\List\STM32H745I_DISCO_CM7.map
+#        --config C:\Code\ST\DemoJR\QSPI\EWARM\stm32h7xx_CM7_FLASH.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -314,7 +313,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj: [1]
+C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj: [1]
     main.o                    1'286       60      336
     startup_stm32h745xx.o     1'252
     stm32h745i_discovery.o      192        2        8
@@ -479,7 +478,7 @@ uwTickFreq              0x2000'0108    0x1  Data  Gb  stm32h7xx_hal.o [1]
 uwTickPrio              0x2000'0110    0x4  Data  Gb  stm32h7xx_hal.o [1]
 
 
-[1] = C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\STM32H745I_DISCO_CM7\Obj
+[1] = C:\Code\ST\DemoJR\QSPI\EWARM\STM32H745I_DISCO_CM7\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tlv.a
 [4] = rt7M_tl.a

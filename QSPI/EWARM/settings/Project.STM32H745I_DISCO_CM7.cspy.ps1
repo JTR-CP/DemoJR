@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\common\bin\cspybat" -f "C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\settings\Project.STM32H745I_DISCO_CM7.general.xcl" --backend -f "C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\settings\Project.STM32H745I_DISCO_CM7.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\common\bin\cspybat" -f "C:\Code\ST\DemoJR\QSPI\EWARM\settings\Project.STM32H745I_DISCO_CM7.general.xcl" --backend -f "C:\Code\ST\DemoJR\QSPI\EWARM\settings\Project.STM32H745I_DISCO_CM7.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\common\bin\cspybat" -f "C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\settings\Project.STM32H745I_DISCO_CM7.general.xcl" --debug_file=$debugfile --backend -f "C:\Code\ST\STM32Cube_FW_H7_V1.11.0\Projects\STM32H745I-DISCO\Examples\QSPI\QSPI_MemoryMappedDual\EWARM\settings\Project.STM32H745I_DISCO_CM7.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4_2\common\bin\cspybat" -f "C:\Code\ST\DemoJR\QSPI\EWARM\settings\Project.STM32H745I_DISCO_CM7.general.xcl" --debug_file=$debugfile --backend -f "C:\Code\ST\DemoJR\QSPI\EWARM\settings\Project.STM32H745I_DISCO_CM7.driver.xcl" 
 }
